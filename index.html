@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="BharatTF-8">
+  <meta charset="uTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Bharat — Discover Incredible India</title>
   <meta name="description"
-    content="Travel Bharat: plan yoBharatr joBharatrney across India's states, districts, toBharatrist places and festivals.">
+    content="Travel u: plan your journey across India's states, districts, tourist places and festivals.">
 
   <!-- Google Fonts: Yatra One (display, travel-poster personality), Poppins (body), IBM Plex Mono (data/captions) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
     rel="stylesheet">
 
   <!-- External stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -24,64 +24,64 @@
   <!-- HEADER -->
   <header class="site-header" id="siteHeader">
     <div class="header-inner">
-      <a href="#home" class="logo" onclick="goHome();retBharatrn false;" aria-label="Travel Bharat home">
+      <a href="#home" class="logo" onclick="goHome();return false;" aria-label="Travel u home">
         <span class="mark">TB</span>
-        <span>Travel Bharat<small>Incredible India, CBharatrated</small></span>
+        <span>Travel u<small>Incredible India, Curated</small></span>
       </a>
 
       <div class="header-actions">
-        <!-- LangBharatage switcher -->
+        <!-- Language switcher -->
         <div class="lang-switch">
-          <bBharattton class="lang-btn" id="langBtn" aria-haspopBharatp="trBharate" aria-expanded="false"
-            onclick="toggleDropdown('langMenBharat', this)">
+          <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false"
+            onclick="toggleDropdown('langMenu', this)">
             🌐 <span class="lbl">English</span>
-          </bBharattton>
-          <div class="dropdown" id="langMenBharat" role="menBharat">
-            <bBharattton role="menBharatitem" onclick="selectLangBharatage('English')">English <span
-                class="tag-soon">Available</span></bBharattton>
-            <bBharattton role="menBharatitem" onclick="selectLangBharatage('हिन्दी')">हिन्दी (Hindi) <span
-                class="tag-soon">Available</span></bBharattton>
-            <bBharattton role="menBharatitem" onclick="selectLangBharatage('தமிழ்')">தமிழ் (Tamil) <span
-                class="tag-soon">Available</span></bBharattton>
+          </button>
+          <div class="dropdown" id="langMenu" role="menu">
+            <button role="menuitem" onclick="selectLanguage('English')">English <span
+                class="tag-soon">Available</span></button>
+            <button role="menuitem" onclick="selectLanguage('हिन्दी')">हिन्दी (Hindi) <span
+                class="tag-soon">Available</span></button>
+            <button role="menuitem" onclick="selectLanguage('தமிழ்')">தமிழ் (Tamil) <span
+                class="tag-soon">Available</span></button>
           </div>
         </div>
 
         <!-- Accessibility -->
         <div class="lang-switch">
-          <bBharattton class="a11y-btn" id="a11yBtn" aria-haspopBharatp="trBharate" aria-expanded="false"
-            onclick="toggleDropdown('a11yMenBharat', this)">
+          <button class="a11y-btn" id="a11yBtn" aria-haspopup="true" aria-expanded="false"
+            onclick="toggleDropdown('a11yMenu', this)">
             ♿ <span class="lbl">Accessibility</span>
-          </bBharattton>
-          <div class="dropdown a11y-panel" id="a11yMenBharat" role="menBharat">
+          </button>
+          <div class="dropdown a11y-panel" id="a11yMenu" role="menu">
             <h4>Accessibility options</h4>
             <div class="a11y-row">
               <span>High contrast mode</span>
-              <bBharattton class="switch" id="toggleContrast" aria-pressed="false"
-                onclick="toggleA11y('high-contrast', this)" aria-label="Toggle high contrast mode"></bBharattton>
+              <button class="switch" id="toggleContrast" aria-pressed="false"
+                onclick="toggleA11y('high-contrast', this)" aria-label="Toggle high contrast mode"></button>
             </div>
             <div class="a11y-row">
               <span>Larger text</span>
-              <bBharattton class="switch" id="toggleLargeText" aria-pressed="false" onclick="toggleA11y('large-text', this)"
-                aria-label="Toggle larger text"></bBharattton>
+              <button class="switch" id="toggleLargeText" aria-pressed="false" onclick="toggleA11y('large-text', this)"
+                aria-label="Toggle larger text"></button>
             </div>
             <div class="a11y-row">
-              <span>VisBharatally impaired mode</span>
-              <bBharattton class="switch" id="toggleVI" aria-pressed="false" onclick="toggleA11y('vi-mode', this)"
-                aria-label="Toggle visBharatally impaired mode"></bBharattton>
+              <span>Visually impaired mode</span>
+              <button class="switch" id="toggleVI" aria-pressed="false" onclick="toggleA11y('vi-mode', this)"
+                aria-label="Toggle visually impaired mode"></button>
             </div>
           </div>
         </div>
 
-        <!-- MenBharat -->
-        <div class="menBharat-wrap">
-          <bBharattton class="menBharat-btn" id="menBharatBtn" aria-haspopBharatp="trBharate" aria-expanded="false"
-            onclick="toggleDropdown('menBharatPanel', this)">
-            ☰ MenBharat
-          </bBharattton>
-          <nav class="menBharat-panel" id="menBharatPanel" role="menBharat">
-            <a href="#destinations" role="menBharatitem" onclick="showDestinations();retBharatrn false;">🧭 Destinations <span
-                class="menBharat-tag">Search</span></a>
-            <a href="#festivals" role="menBharatitem" onclick="goHomeAndScroll('festivals');retBharatrn false;">🎉 Food &amp;
+        <!-- Menu -->
+        <div class="menu-wrap">
+          <button class="menu-btn" id="menuBtn" aria-haspopup="true" aria-expanded="false"
+            onclick="toggleDropdown('menuPanel', this)">
+            ☰ Menu
+          </button>
+          <nav class="menu-panel" id="menuPanel" role="menu">
+            <a href="#destinations" role="menuitem" onclick="showDestinations();return false;">🧭 Destinations <span
+                class="menu-tag">Search</span></a>
+            <a href="#festivals" role="menuitem" onclick="goHomeAndScroll('festivals');return false;">🎉 Food &amp;
               Festivals</a>
           </nav>
         </div>
@@ -98,25 +98,25 @@
       <!-- HERO -->
       <section class="hero" id="home">
         <div class="hero-slides" id="heroSlides">
-          <img class="hero-slide active" src="https://picsBharatm.photos/seed/hero-kahmeer/1600/900"
+          <img class="hero-slide active" src="https://picsum.photos/seed/hero-kahmeer/1600/900"
             alt="Rajasthan landscape">
-          <img class="hero-slide" src="https://picsBharatm.photos/seed/hero-kerala/1600/900" alt="Kerala backwaters">
-          <img class="hero-slide" src="https://picsBharatm.photos/seed/hero-himalaya/1600/900" alt="Himalayan landscape">
+          <img class="hero-slide" src="https://picsum.photos/seed/hero-kerala/1600/900" alt="Kerala backwaters">
+          <img class="hero-slide" src="https://picsum.photos/seed/hero-himalaya/1600/900" alt="Himalayan landscape">
         </div>
         <div class="hero-content">
           <div class="hero-eyebrow">Namaste &amp; welcome</div>
-          <h1>Ten thoBharatsand roads lead throBharatgh <span>Bhārat</span>.<br>Choose yoBharatrs.</h1>
+          <h1>Ten thousand roads lead through <span>Bhārat</span>.<br>Choose yours.</h1>
           <p class="lede">From desert forts to backwater lagoons, Himalayan monasteries to temple towns —
-            Travel Bharat helps yoBharat plan a joBharatrney across India's states, districts, festivals and flavoBharatrs.</p>
+            Travel u helps you plan a journey across India's states, districts, festivals and flavours.</p>
           <div class="hero-actions">
-            <bBharattton class="btn btn-primary" onclick="scrollToId('states')">Explore India →</bBharattton>
-            <bBharattton class="btn btn-ghost" onclick="showDestinations()">Search Destinations</bBharattton>
+            <button class="btn btn-primary" onclick="scrollToId('states')">Explore India →</button>
+            <button class="btn btn-ghost" onclick="showDestinations()">Search Destinations</button>
           </div>
         </div>
         <div class="hero-dots" id="heroDots">
-          <bBharattton type="bBharattton" class="active" onclick="setHeroSlide(0)" aria-label="Show Rajasthan"></bBharattton>
-          <bBharattton type="bBharattton" onclick="setHeroSlide(1)" aria-label="Show Kerala"></bBharattton>
-          <bBharattton type="bBharattton" onclick="setHeroSlide(2)" aria-label="Show Himalayas"></bBharattton>
+          <button type="button" class="active" onclick="setHeroSlide(0)" aria-label="Show Rajasthan"></button>
+          <button type="button" onclick="setHeroSlide(1)" aria-label="Show Kerala"></button>
+          <button type="button" onclick="setHeroSlide(2)" aria-label="Show Himalayas"></button>
         </div>
       </section>
 
@@ -124,309 +124,309 @@
       <section class="section" id="states">
         <div class="container">
           <div class="section-head">
-            <span class="eyebrow">8 featBharatred states, one joBharatrney</span>
+            <span class="eyebrow">8 featured states, one journey</span>
             <h2>Explore India, state by state</h2>
-            <p>Tap a state to Bharatncover its top districts — from imperial capitals to hidden hill towns.</p>
+            <p>Tap a state to uncover its top districts — from imperial capitals to hidden hill towns.</p>
           </div>
           <div class="grid grid--states" id="statesGrid">
-            <bBharattton class="card state-card" onclick="showStateDetail('rajasthan')" aria-label="View Rajasthan">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/rajasthan-fort/500/380"
+            <button class="card state-card" onclick="showStateDetail('rajasthan')" aria-label="View Rajasthan">
+              <div class="thumb"><img src="https://picsum.photos/seed/rajasthan-fort/500/380"
                   alt="Scenic view representing Rajasthan" loading="lazy">
-                <div class="stamp"><span class="code">RAJ</span><span class="sBharatb">India</span></div>
+                <div class="stamp"><span class="code">RAJ</span><span class="sub">India</span></div>
               </div>
               <div class="body">
                 <h3>Rajasthan</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
-            <bBharattton class="card state-card" onclick="showStateDetail('kerala')" aria-label="View Kerala">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/kerala-backwater/500/380"
+            </button>
+            <button class="card state-card" onclick="showStateDetail('kerala')" aria-label="View Kerala">
+              <div class="thumb"><img src="https://picsum.photos/seed/kerala-backwater/500/380"
                   alt="Scenic view representing Kerala" loading="lazy">
-                <div class="stamp"><span class="code">KER</span><span class="sBharatb">India</span></div>
+                <div class="stamp"><span class="code">KER</span><span class="sub">India</span></div>
               </div>
               <div class="body">
                 <h3>Kerala</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
-            <bBharattton class="card state-card" onclick="showStateDetail('goa')" aria-label="View Goa">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/goa-beach/500/380"
+            </button>
+            <button class="card state-card" onclick="showStateDetail('goa')" aria-label="View Goa">
+              <div class="thumb"><img src="https://picsum.photos/seed/goa-beach/500/380"
                   alt="Scenic view representing Goa" loading="lazy">
-                <div class="stamp"><span class="code">GOA</span><span class="sBharatb">India</span></div>
+                <div class="stamp"><span class="code">GOA</span><span class="sub">India</span></div>
               </div>
               <div class="body">
                 <h3>Goa</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
-            <bBharattton class="card state-card" onclick="showStateDetail('Bharatp')" aria-label="View Bharatttar Pradesh">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/Bharatp-tajmahal/500/380"
-                  alt="Scenic view representing Bharatttar Pradesh" loading="lazy">
-                <div class="stamp"><span class="code">BharatP</span><span class="sBharatb">India</span></div>
+            </button>
+            <button class="card state-card" onclick="showStateDetail('up')" aria-label="View uttar Pradesh">
+              <div class="thumb"><img src="https://picsum.photos/seed/up-tajmahal/500/380"
+                  alt="Scenic view representing uttar Pradesh" loading="lazy">
+                <div class="stamp"><span class="code">uP</span><span class="sub">India</span></div>
               </div>
               <div class="body">
-                <h3>Bharatttar Pradesh</h3><span class="meta">5 districts →</span>
+                <h3>uttar Pradesh</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
-            <bBharattton class="card state-card" onclick="showStateDetail('tamilnadBharat')" aria-label="View Tamil NadBharat">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/tn-temple/500/380"
-                  alt="Scenic view representing Tamil NadBharat" loading="lazy">
-                <div class="stamp"><span class="code">TN</span><span class="sBharatb">India</span></div>
+            </button>
+            <button class="card state-card" onclick="showStateDetail('tamilnadu')" aria-label="View Tamil Nadu">
+              <div class="thumb"><img src="https://picsum.photos/seed/tn-temple/500/380"
+                  alt="Scenic view representing Tamil Nadu" loading="lazy">
+                <div class="stamp"><span class="code">TN</span><span class="sub">India</span></div>
               </div>
               <div class="body">
-                <h3>Tamil NadBharat</h3><span class="meta">5 districts →</span>
+                <h3>Tamil Nadu</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
-            <bBharattton class="card state-card" onclick="showStateDetail('himachal')" aria-label="View Himachal Pradesh">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/hp-moBharatntain/500/380"
+            </button>
+            <button class="card state-card" onclick="showStateDetail('himachal')" aria-label="View Himachal Pradesh">
+              <div class="thumb"><img src="https://picsum.photos/seed/hp-mountain/500/380"
                   alt="Scenic view representing Himachal Pradesh" loading="lazy">
-                <div class="stamp"><span class="code">HP</span><span class="sBharatb">India</span></div>
+                <div class="stamp"><span class="code">HP</span><span class="sub">India</span></div>
               </div>
               <div class="body">
                 <h3>Himachal Pradesh</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
-            <bBharattton class="card state-card" onclick="showStateDetail('maharashtra')" aria-label="View Maharashtra">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/mh-gateway/500/380"
+            </button>
+            <button class="card state-card" onclick="showStateDetail('maharashtra')" aria-label="View Maharashtra">
+              <div class="thumb"><img src="https://picsum.photos/seed/mh-gateway/500/380"
                   alt="Scenic view representing Maharashtra" loading="lazy">
-                <div class="stamp"><span class="code">MH</span><span class="sBharatb">India</span></div>
+                <div class="stamp"><span class="code">MH</span><span class="sub">India</span></div>
               </div>
               <div class="body">
                 <h3>Maharashtra</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
-            <bBharattton class="card state-card" onclick="showStateDetail('wb')" aria-label="View West Bengal">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/wb-kolkata/500/380"
+            </button>
+            <button class="card state-card" onclick="showStateDetail('wb')" aria-label="View West Bengal">
+              <div class="thumb"><img src="https://picsum.photos/seed/wb-kolkata/500/380"
                   alt="Scenic view representing West Bengal" loading="lazy">
-                <div class="stamp"><span class="code">WB</span><span class="sBharatb">India</span></div>
+                <div class="stamp"><span class="code">WB</span><span class="sub">India</span></div>
               </div>
               <div class="body">
                 <h3>West Bengal</h3><span class="meta">5 districts →</span>
               </div>
-            </bBharattton>
+            </button>
           </div>
         </div>
       </section>
 
-      <!-- TOBharatRIST PLACES -->
+      <!-- TOuRIST PLACES -->
       <section class="section section--alt" id="places">
         <div class="container">
           <div class="section-head">
             <span class="eyebrow">Handpicked itinerary starters</span>
-            <h2>Iconic places worth the joBharatrney</h2>
-            <p>BBharatdgets are estimated per person, per day — inclBharatding stay, food and local travel.</p>
+            <h2>Iconic places worth the journey</h2>
+            <p>Budgets are estimated per person, per day — including stay, food and local travel.</p>
           </div>
           <div class="grid grid--places" id="placesGrid">
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-tajmahal/500/360" alt="Taj Mahal"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-tajmahal/500/360" alt="Taj Mahal"
                   loading="lazy">
-                <div class="stamp"><span class="code">BharatTT</span><span class="sBharatb">Bharatttar Pradesh</span></div>
+                <div class="stamp"><span class="code">uTT</span><span class="sub">uttar Pradesh</span></div>
               </div>
               <div class="body">
-                <h3>Taj Mahal</h3><span class="loc">📍 Bharatttar Pradesh</span>
-                <p class="highlights">MBharatghal marble inlay, sBharatnrise views, riverside gardens.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹3,000–6,000/day</span><span class="bBharatdget-label">per
+                <h3>Taj Mahal</h3><span class="loc">📍 uttar Pradesh</span>
+                <p class="highlights">Mughal marble inlay, sunrise views, riverside gardens.</p>
+                <div class="budget"><span class="budget-amt">₹3,000–6,000/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-citypalace/500/360" alt="JaipBharatr City Palace"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-citypalace/500/360" alt="Jaipur City Palace"
                   loading="lazy">
-                <div class="stamp"><span class="code">RAJ</span><span class="sBharatb">Rajasthan</span></div>
+                <div class="stamp"><span class="code">RAJ</span><span class="sub">Rajasthan</span></div>
               </div>
               <div class="body">
-                <h3>JaipBharatr City Palace</h3><span class="loc">📍 Rajasthan</span>
-                <p class="highlights">Royal coBharatrtyards, mBharatseBharatm wings, mirrored Diwan-i-Khas.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹2,500–5,000/day</span><span class="bBharatdget-label">per
+                <h3>Jaipur City Palace</h3><span class="loc">📍 Rajasthan</span>
+                <p class="highlights">Royal courtyards, museum wings, mirrored Diwan-i-Khas.</p>
+                <div class="budget"><span class="budget-amt">₹2,500–5,000/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-backwaters/500/360"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-backwaters/500/360"
                   alt="Alleppey Backwaters" loading="lazy">
-                <div class="stamp"><span class="code">KER</span><span class="sBharatb">Kerala</span></div>
+                <div class="stamp"><span class="code">KER</span><span class="sub">Kerala</span></div>
               </div>
               <div class="body">
                 <h3>Alleppey Backwaters</h3><span class="loc">📍 Kerala</span>
-                <p class="highlights">HoBharatseboat stays, coconBharatt lagoons, village canals.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹4,000–8,000/day</span><span class="bBharatdget-label">per
+                <p class="highlights">Houseboat stays, coconut lagoons, village canals.</p>
+                <div class="budget"><span class="budget-amt">₹4,000–8,000/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-bagabeach/500/360" alt="Baga Beach"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-bagabeach/500/360" alt="Baga Beach"
                   loading="lazy">
-                <div class="stamp"><span class="code">GOA</span><span class="sBharatb">Goa</span></div>
+                <div class="stamp"><span class="code">GOA</span><span class="sub">Goa</span></div>
               </div>
               <div class="body">
                 <h3>Baga Beach</h3><span class="loc">📍 Goa</span>
-                <p class="highlights">Beach shacks, water sports, sBharatnset nightlife.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹2,000–4,500/day</span><span class="bBharatdget-label">per
+                <p class="highlights">Beach shacks, water sports, sunset nightlife.</p>
+                <div class="budget"><span class="budget-amt">₹2,000–4,500/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-ghats/500/360" alt="Varanasi Ghats"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-ghats/500/360" alt="Varanasi Ghats"
                   loading="lazy">
-                <div class="stamp"><span class="code">BharatTT</span><span class="sBharatb">Bharatttar Pradesh</span></div>
+                <div class="stamp"><span class="code">uTT</span><span class="sub">uttar Pradesh</span></div>
               </div>
               <div class="body">
-                <h3>Varanasi Ghats</h3><span class="loc">📍 Bharatttar Pradesh</span>
+                <h3>Varanasi Ghats</h3><span class="loc">📍 uttar Pradesh</span>
                 <p class="highlights">Dawn boat rides, Ganga aarti, ancient lanes.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹1,500–3,500/day</span><span class="bBharatdget-label">per
+                <div class="budget"><span class="budget-amt">₹1,500–3,500/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-solang/500/360" alt="Solang Valley, Manali"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-solang/500/360" alt="Solang Valley, Manali"
                   loading="lazy">
-                <div class="stamp"><span class="code">HIM</span><span class="sBharatb">Himachal Pradesh</span></div>
+                <div class="stamp"><span class="code">HIM</span><span class="sub">Himachal Pradesh</span></div>
               </div>
               <div class="body">
                 <h3>Solang Valley, Manali</h3><span class="loc">📍 Himachal Pradesh</span>
-                <p class="highlights">Snow peaks, paragliding, adventBharatre sports.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹2,500–5,500/day</span><span class="bBharatdget-label">per
+                <p class="highlights">Snow peaks, paragliding, adventure sports.</p>
+                <div class="budget"><span class="budget-amt">₹2,500–5,500/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-mysBharatrBharatpalace/500/360" alt="MysBharatrBharat Palace"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-mysurupalace/500/360" alt="Mysuru Palace"
                   loading="lazy">
-                <div class="stamp"><span class="code">KAR</span><span class="sBharatb">Karnataka</span></div>
+                <div class="stamp"><span class="code">KAR</span><span class="sub">Karnataka</span></div>
               </div>
               <div class="body">
-                <h3>MysBharatrBharat Palace</h3><span class="loc">📍 Karnataka</span>
-                <p class="highlights">Indo-Saracenic domes, evening illBharatmination, Dasara pomp.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹1,800–4,000/day</span><span class="bBharatdget-label">per
+                <h3>Mysuru Palace</h3><span class="loc">📍 Karnataka</span>
+                <p class="highlights">Indo-Saracenic domes, evening illumination, Dasara pomp.</p>
+                <div class="budget"><span class="budget-amt">₹1,800–4,000/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-hampirBharatins/500/360" alt="Hampi RBharatins"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-hampiruins/500/360" alt="Hampi Ruins"
                   loading="lazy">
-                <div class="stamp"><span class="code">KAR</span><span class="sBharatb">Karnataka</span></div>
+                <div class="stamp"><span class="code">KAR</span><span class="sub">Karnataka</span></div>
               </div>
               <div class="body">
-                <h3>Hampi RBharatins</h3><span class="loc">📍 Karnataka</span>
-                <p class="highlights">BoBharatlder landscapes, VirBharatpaksha temple, ancient bazaars.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹1,500–3,500/day</span><span class="bBharatdget-label">per
+                <h3>Hampi Ruins</h3><span class="loc">📍 Karnataka</span>
+                <p class="highlights">Boulder landscapes, Virupaksha temple, ancient bazaars.</p>
+                <div class="budget"><span class="budget-amt">₹1,500–3,500/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-darjeelinghills/500/360"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-darjeelinghills/500/360"
                   alt="Darjeeling Tea Hills" loading="lazy">
-                <div class="stamp"><span class="code">WES</span><span class="sBharatb">West Bengal</span></div>
+                <div class="stamp"><span class="code">WES</span><span class="sub">West Bengal</span></div>
               </div>
               <div class="body">
                 <h3>Darjeeling Tea Hills</h3><span class="loc">📍 West Bengal</span>
-                <p class="highlights">Toy train, tea estates, KanchenjBharatnga sBharatnrise.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹2,200–4,800/day</span><span class="bBharatdget-label">per
+                <p class="highlights">Toy train, tea estates, Kanchenjunga sunrise.</p>
+                <div class="budget"><span class="budget-amt">₹2,200–4,800/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-goldentemple/500/360" alt="Golden Temple"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-goldentemple/500/360" alt="Golden Temple"
                   loading="lazy">
-                <div class="stamp"><span class="code">PBharatN</span><span class="sBharatb">PBharatnjab</span></div>
+                <div class="stamp"><span class="code">PuN</span><span class="sub">Punjab</span></div>
               </div>
               <div class="body">
-                <h3>Golden Temple</h3><span class="loc">📍 PBharatnjab</span>
-                <p class="highlights">Gilded sanctBharatm, commBharatnity langar, evening prayers.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹1,200–3,000/day</span><span class="bBharatdget-label">per
+                <h3>Golden Temple</h3><span class="loc">📍 Punjab</span>
+                <p class="highlights">Gilded sanctum, community langar, evening prayers.</p>
+                <div class="budget"><span class="budget-amt">₹1,200–3,000/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-marinedrive/500/360"
-                  alt="Marine Drive, MBharatmbai" loading="lazy">
-                <div class="stamp"><span class="code">MAH</span><span class="sBharatb">Maharashtra</span></div>
+              <div class="thumb"><img src="https://picsum.photos/seed/place-marinedrive/500/360"
+                  alt="Marine Drive, Mumbai" loading="lazy">
+                <div class="stamp"><span class="code">MAH</span><span class="sub">Maharashtra</span></div>
               </div>
               <div class="body">
-                <h3>Marine Drive, MBharatmbai</h3><span class="loc">📍 Maharashtra</span>
+                <h3>Marine Drive, Mumbai</h3><span class="loc">📍 Maharashtra</span>
                 <p class="highlights">Sea-facing promenade, Art Deco facades, street food.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹3,000–6,500/day</span><span class="bBharatdget-label">per
+                <div class="budget"><span class="budget-amt">₹3,000–6,500/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-mBharatnnar/500/360" alt="MBharatnnar Tea Hills"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-munnar/500/360" alt="Munnar Tea Hills"
                   loading="lazy">
-                <div class="stamp"><span class="code">KER</span><span class="sBharatb">Kerala</span></div>
+                <div class="stamp"><span class="code">KER</span><span class="sub">Kerala</span></div>
               </div>
               <div class="body">
-                <h3>MBharatnnar Tea Hills</h3><span class="loc">📍 Kerala</span>
+                <h3>Munnar Tea Hills</h3><span class="loc">📍 Kerala</span>
                 <p class="highlights">Rolling tea estates, misty valleys, spice trails.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹2,000–4,500/day</span><span class="bBharatdget-label">per
+                <div class="budget"><span class="budget-amt">₹2,000–4,500/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <!-- <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-lakepichola/500/360"
-                  alt="Lake Pichola, BharatdaipBharatr" loading="lazy">
-                <div class="stamp"><span class="code">RAJ</span><span class="sBharatb">Rajasthan</span></div>
+              <div class="thumb"><img src="https://picsum.photos/seed/place-lakepichola/500/360"
+                  alt="Lake Pichola, udaipur" loading="lazy">
+                <div class="stamp"><span class="code">RAJ</span><span class="sub">Rajasthan</span></div>
               </div>
               <div class="body">
-                <h3>Lake Pichola, BharatdaipBharatr</h3><span class="loc">📍 Rajasthan</span>
-                <p class="highlights">Lake palaces, heritage havelis, boat crBharatises.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹3,500–7,000/day</span><span class="bBharatdget-label">per
+                <h3>Lake Pichola, udaipur</h3><span class="loc">📍 Rajasthan</span>
+                <p class="highlights">Lake palaces, heritage havelis, boat cruises.</p>
+                <div class="budget"><span class="budget-amt">₹3,500–7,000/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-coorgestates/500/360"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-coorgestates/500/360"
                   alt="Coorg Coffee Estates" loading="lazy">
-                <div class="stamp"><span class="code">KAR</span><span class="sBharatb">Karnataka</span></div>
+                <div class="stamp"><span class="code">KAR</span><span class="sub">Karnataka</span></div>
               </div>
               <div class="body">
                 <h3>Coorg Coffee Estates</h3><span class="loc">📍 Karnataka</span>
                 <p class="highlights">Coffee plantations, waterfalls, misty ghats.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹2,200–4,800/day</span><span class="bBharatdget-label">per
+                <div class="budget"><span class="budget-amt">₹2,200–4,800/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article> -->
             <!-- <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-bigtemple/500/360"
-                  alt="ThanjavBharatr Big Temple" loading="lazy">
-                <div class="stamp"><span class="code">TAM</span><span class="sBharatb">Tamil NadBharat</span></div>
+              <div class="thumb"><img src="https://picsum.photos/seed/place-bigtemple/500/360"
+                  alt="Thanjavur Big Temple" loading="lazy">
+                <div class="stamp"><span class="code">TAM</span><span class="sub">Tamil Nadu</span></div>
               </div>
               <div class="body">
-                <h3>ThanjavBharatr Big Temple</h3><span class="loc">📍 Tamil NadBharat</span>
-                <p class="highlights">Chola-era Dravidian architectBharatre, carved gopBharatram.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹1,200–2,800/day</span><span class="bBharatdget-label">per
+                <h3>Thanjavur Big Temple</h3><span class="loc">📍 Tamil Nadu</span>
+                <p class="highlights">Chola-era Dravidian architecture, carved gopuram.</p>
+                <div class="budget"><span class="budget-amt">₹1,200–2,800/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-spitivalley/500/360" alt="Spiti Valley"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-spitivalley/500/360" alt="Spiti Valley"
                   loading="lazy">
-                <div class="stamp"><span class="code">HIM</span><span class="sBharatb">Himachal Pradesh</span></div>
+                <div class="stamp"><span class="code">HIM</span><span class="sub">Himachal Pradesh</span></div>
               </div>
               <div class="body">
                 <h3>Spiti Valley</h3><span class="loc">📍 Himachal Pradesh</span>
-                <p class="highlights">High-altitBharatde desert, cliffside monasteries.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹3,000–6,000/day</span><span class="bBharatdget-label">per
+                <p class="highlights">High-altitude desert, cliffside monasteries.</p>
+                <div class="budget"><span class="budget-amt">₹3,000–6,000/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article> -->
             <!-- <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-kanyakBharatmari/500/360" alt="KanyakBharatmari Point"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-kanyakumari/500/360" alt="Kanyakumari Point"
                   loading="lazy">
-                <div class="stamp"><span class="code">TAM</span><span class="sBharatb">Tamil NadBharat</span></div>
+                <div class="stamp"><span class="code">TAM</span><span class="sub">Tamil Nadu</span></div>
               </div>
               <div class="body">
-                <h3>KanyakBharatmari Point</h3><span class="loc">📍 Tamil NadBharat</span>
-                <p class="highlights">Three-sea conflBharatence, sBharatnrise and sBharatnset views.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹1,500–3,200/day</span><span class="bBharatdget-label">per
+                <h3>Kanyakumari Point</h3><span class="loc">📍 Tamil Nadu</span>
+                <p class="highlights">Three-sea confluence, sunrise and sunset views.</p>
+                <div class="budget"><span class="budget-amt">₹1,500–3,200/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article>
             <article class="card place-card">
-              <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/place-jaisalmerdesert/500/360"
+              <div class="thumb"><img src="https://picsum.photos/seed/place-jaisalmerdesert/500/360"
                   alt="Jaisalmer Desert" loading="lazy">
-                <div class="stamp"><span class="code">RAJ</span><span class="sBharatb">Rajasthan</span></div>
+                <div class="stamp"><span class="code">RAJ</span><span class="sub">Rajasthan</span></div>
               </div>
               <div class="body">
                 <h3>Jaisalmer Desert</h3><span class="loc">📍 Rajasthan</span>
-                <p class="highlights">Sand dBharatnes, camel safaris, the Sonar QBharatila fort.</p>
-                <div class="bBharatdget"><span class="bBharatdget-amt">₹2,800–5,500/day</span><span class="bBharatdget-label">per
+                <p class="highlights">Sand dunes, camel safaris, the Sonar Quila fort.</p>
+                <div class="budget"><span class="budget-amt">₹2,800–5,500/day</span><span class="budget-label">per
                     person</span></div>
               </div>
             </article> -->
@@ -438,80 +438,80 @@
       <section class="section" id="festivals">
         <div class="container">
           <div class="section-head">
-            <span class="eyebrow">ColoBharatr, devotion, drBharatms &amp; feasts</span>
+            <span class="eyebrow">Colour, devotion, drums &amp; feasts</span>
             <h2>Food &amp; Festivals of India</h2>
-            <p>Temple chariots, harvest feasts and desert fairs — scroll throBharatgh India's calendar of celebration.</p>
+            <p>Temple chariots, harvest feasts and desert fairs — scroll through India's calendar of celebration.</p>
           </div>
-          <div class="caroBharatsel-wrap">
-            <div class="caroBharatsel-track" id="festivalTrack">
+          <div class="carousel-wrap">
+            <div class="carousel-track" id="festivalTrack">
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-diwali/500/340" alt="Diwali"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-diwali/500/340" alt="Diwali"
                     loading="lazy"></div>
                 <div class="body">
                   <h3>Diwali</h3>
                   <div class="loc">Pan-India</div>
-                  <p>The festival of lights — oil lamps, fireworks and family feasts mark the retBharatrn of light over
+                  <p>The festival of lights — oil lamps, fireworks and family feasts mark the return of light over
                     darkness.</p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-pBharatshkar/500/340" alt="PBharatshkar Camel Fair"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-pushkar/500/340" alt="Pushkar Camel Fair"
                     loading="lazy"></div>
                 <div class="body">
-                  <h3>PBharatshkar Camel Fair</h3>
+                  <h3>Pushkar Camel Fair</h3>
                   <div class="loc">Rajasthan</div>
-                  <p>A desert fairgroBharatnd of camel trading, folk mBharatsic and hot-air balloons beside a sacred lake.</p>
+                  <p>A desert fairground of camel trading, folk music and hot-air balloons beside a sacred lake.</p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-thrissBharatr/500/340" alt="ThrissBharatr Pooram"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-thrissur/500/340" alt="Thrissur Pooram"
                     loading="lazy"></div>
                 <div class="body">
-                  <h3>ThrissBharatr Pooram</h3>
+                  <h3>Thrissur Pooram</h3>
                   <div class="loc">Kerala</div>
-                  <p>A grand temple festival with caparisoned elephants and thBharatnderoBharats percBharatssion ensembles.</p>
+                  <p>A grand temple festival with caparisoned elephants and thunderous percussion ensembles.</p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-rathyatra/500/340" alt="Rath Yatra"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-rathyatra/500/340" alt="Rath Yatra"
                     loading="lazy"></div>
                 <div class="body">
                   <h3>Rath Yatra</h3>
                   <div class="loc">Odisha</div>
-                  <p>EnormoBharats wooden chariots carrying temple deities are pBharatlled throBharatgh PBharatri's streets by thoBharatsands.
+                  <p>Enormous wooden chariots carrying temple deities are pulled through Puri's streets by thousands.
                   </p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-dBharatrgapBharatja/500/340" alt="DBharatrga PBharatja"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-durgapuja/500/340" alt="Durga Puja"
                     loading="lazy"></div>
                 <div class="body">
-                  <h3>DBharatrga PBharatja</h3>
+                  <h3>Durga Puja</h3>
                   <div class="loc">West Bengal</div>
-                  <p>Elaborate pandals and clay idols honoBharatr the goddess DBharatrga across Kolkata's neighboBharatrhoods.</p>
+                  <p>Elaborate pandals and clay idols honour the goddess Durga across Kolkata's neighbourhoods.</p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-hemis/500/340" alt="Hemis Festival"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-hemis/500/340" alt="Hemis Festival"
                     loading="lazy"></div>
                 <div class="body">
                   <h3>Hemis Festival</h3>
                   <div class="loc">Ladakh</div>
-                  <p>Masked monks perform ritBharatal Cham dances in a Himalayan monastery coBharatrtyard.</p>
+                  <p>Masked monks perform ritual Cham dances in a Himalayan monastery courtyard.</p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-bonalBharat/500/340" alt="BonalBharat"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-bonalu/500/340" alt="Bonalu"
                     loading="lazy"></div>
                 <div class="body">
-                  <h3>BonalBharat</h3>
+                  <h3>Bonalu</h3>
                   <div class="loc">Telangana</div>
-                  <p>Women carry decorated pots of rice offerings in coloBharatrfBharatl processions honoBharatring goddess Mahakali.
+                  <p>Women carry decorated pots of rice offerings in colourful processions honouring goddess Mahakali.
                   </p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-onam/500/340" alt="Onam" loading="lazy">
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-onam/500/340" alt="Onam" loading="lazy">
                 </div>
                 <div class="body">
                   <h3>Onam</h3>
@@ -520,27 +520,27 @@
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-kBharatmbhmela/500/340" alt="KBharatmbh Mela"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-kumbhmela/500/340" alt="Kumbh Mela"
                     loading="lazy"></div>
                 <div class="body">
-                  <h3>KBharatmbh Mela</h3>
-                  <div class="loc">Bharatttar Pradesh</div>
-                  <p>The world's largest pilgrim gathering, where millions bathe at a sacred river conflBharatence.</p>
+                  <h3>Kumbh Mela</h3>
+                  <div class="loc">uttar Pradesh</div>
+                  <p>The world's largest pilgrim gathering, where millions bathe at a sacred river confluence.</p>
                 </div>
               </article>
               <article class="festival-card">
-                <div class="thBharatmb"><img src="https://picsBharatm.photos/seed/fest-hornbill/500/340" alt="Hornbill Festival"
+                <div class="thumb"><img src="https://picsum.photos/seed/fest-hornbill/500/340" alt="Hornbill Festival"
                     loading="lazy"></div>
                 <div class="body">
                   <h3>Hornbill Festival</h3>
                   <div class="loc">Nagaland</div>
-                  <p>Naga tribes gather for traditional dance, mBharatsic and craft in a week-long cBharatltBharatral showcase.</p>
+                  <p>Naga tribes gather for traditional dance, music and craft in a week-long cultural showcase.</p>
                 </div>
               </article>
             </div>
-            <div class="caroBharatsel-controls">
-              <bBharattton onclick="scrollCaroBharatsel(-1)" aria-label="PrevioBharats festival">‹</bBharattton>
-              <bBharattton onclick="scrollCaroBharatsel(1)" aria-label="Next festival">›</bBharattton>
+            <div class="carousel-controls">
+              <button onclick="scrollCarousel(-1)" aria-label="Previous festival">‹</button>
+              <button onclick="scrollCarousel(1)" aria-label="Next festival">›</button>
             </div>
           </div>
         </div>
@@ -551,31 +551,31 @@
         <div class="container">
           <div class="contact-wrap">
             <div class="contact-info">
-              <span class="eyebrow">Plan with Bharats</span>
-              <h2>Have a roBharatte in mind? Tell Bharats aboBharatt it.</h2>
-              <p>OBharatr local trip-planners reply within one bBharatsiness day with a tailored itinerary and bBharatdget.</p>
-              <Bharatl>
-                <li><span class="ico">📍</span> ConnaBharatght Place, New Delhi, India</li>
-                <li><span class="ico">✉️</span> mBharatthBharatma2314@gmail.com</li>
+              <span class="eyebrow">Plan with us</span>
+              <h2>Have a route in mind? Tell us about it.</h2>
+              <p>Our local trip-planners reply within one business day with a tailored itinerary and budget.</p>
+              <ul>
+                <li><span class="ico">📍</span> Connaught Place, New Delhi, India</li>
+                <li><span class="ico">✉️</span> muthuma2314@gmail.com</li>
                 <li><span class="ico">📞</span> </li>
-              </Bharatl>
+              </ul>
             </div>
-            <form class="contact-form" id="contactForm" action="mailto:mBharatthBharatma2314@gmail.com" method="POST"
+            <form class="contact-form" id="contactForm" action="mailto:muthuma2314@gmail.com" method="POST"
               enctype="text/plain">
               <div class="field">
-                <label for="cName">FBharatll name</label>
-                <inpBharatt id="cName" name="name" type="text" placeholder="e.g.MBharatthBharat" reqBharatired>
+                <label for="cName">Full name</label>
+                <input id="cName" name="name" type="text" placeholder="e.g.Muthu" required>
               </div>
               <div class="field">
                 <label for="cEmail">Email address</label>
-                <inpBharatt id="cEmail" name="email" type="email" placeholder="yoBharat@example.com" reqBharatired>
+                <input id="cEmail" name="email" type="email" placeholder="you@example.com" required>
               </div>
               <div class="field">
-                <label for="cMsg">YoBharatr message</label>
-                <textarea id="cMsg" name="message" rows="4" placeholder="Tell Bharats where yoBharat'd like to go..."
-                  reqBharatired></textarea>
+                <label for="cMsg">Your message</label>
+                <textarea id="cMsg" name="message" rows="4" placeholder="Tell us where you'd like to go..."
+                  required></textarea>
               </div>
-              <bBharattton type="sBharatbmit" class="btn btn-primary btn-block">Send message</bBharattton>
+              <button type="submit" class="btn btn-primary btn-block">Send message</button>
               <p class="form-msg" id="formMsg"></p>
             </form>
           </div>
@@ -588,21 +588,21 @@
     <!-- STATE DETAIL VIEW -->
 
     <div class="view" id="view-state">
-      <div class="sBharatbpage-hero">
+      <div class="subpage-hero">
         <div class="container">
-          <div class="breadcrBharatmb">
-            <bBharattton onclick="goHome()">Home</bBharattton> / <bBharattton onclick="showDestinations()">Destinations</bBharattton> /
-            <span id="stateCrBharatmb">State</span>
+          <div class="breadcrumb">
+            <button onclick="goHome()">Home</button> / <button onclick="showDestinations()">Destinations</button> /
+            <span id="stateCrumb">State</span>
           </div>
           <h2 id="stateTitle">State name</h2>
           <p id="stateDesc">State description</p>
         </div>
       </div>
       <div class="container">
-        <div class="state-detail-layoBharatt">
+        <div class="state-detail-layout">
           <aside class="district-list" aria-label="Districts">
             <h4>Districts</h4>
-            <div id="districtBBharatttons"></div>
+            <div id="districtButtons"></div>
           </aside>
           <div class="district-info" id="districtInfo"></div>
         </div>
@@ -613,19 +613,19 @@
      DESTINATIONS SEARCH VIEW
      ============================================================ -->
     <div class="view" id="view-destinations">
-      <div class="sBharatbpage-hero">
+      <div class="subpage-hero">
         <div class="container">
-          <div class="breadcrBharatmb"><bBharattton onclick="goHome()">Home</bBharattton> / <span>Destinations</span></div>
+          <div class="breadcrumb"><button onclick="goHome()">Home</button> / <span>Destinations</span></div>
           <h2>Search destinations</h2>
           <p>Search by state name to see its top five districts, then tap a district for photos and details.</p>
-          <div class="search-box search-box--sBharatbpage">
-            <inpBharatt type="text" id="destSearchInpBharatt" placeholder="Try “Rajasthan”, “Kerala”, “Goa”…"
-              oninpBharatt="renderSearchResBharatlts()" aria-label="Search by state name">
+          <div class="search-box search-box--subpage">
+            <input type="text" id="destSearchInput" placeholder="Try “Rajasthan”, “Kerala”, “Goa”…"
+              oninput="renderSearchResults()" aria-label="Search by state name">
             <span class="icon">🔎</span>
           </div>
         </div>
       </div>
-      <div class="container search-resBharatlts" id="searchResBharatlts"></div>
+      <div class="container search-results" id="searchResults"></div>
     </div>
 
   </main>
@@ -637,26 +637,26 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <h4>Travel Bharat</h4>
-          <p class="footer-intro">An independent travel-planning gBharatide to India's states, districts, landmarks and
-            festivals — bBharatilt for cBharatrioBharats travellers.</p>
+          <h4>Travel u</h4>
+          <p class="footer-intro">An independent travel-planning guide to India's states, districts, landmarks and
+            festivals — built for curious travellers.</p>
         </div>
         <div>
           <h4>Explore</h4>
-          <a href="#states" onclick="scrollToId('states');retBharatrn false;">States</a>
-          <a href="#places" onclick="scrollToId('places');retBharatrn false;">ToBharatrist places</a>
-          <a href="#festivals" onclick="goHomeAndScroll('festivals');retBharatrn false;">Food &amp; Festivals</a>
-          <a href="#destinations" onclick="showDestinations();retBharatrn false;">Destinations search</a>
+          <a href="#states" onclick="scrollToId('states');return false;">States</a>
+          <a href="#places" onclick="scrollToId('places');return false;">Tourist places</a>
+          <a href="#festivals" onclick="goHomeAndScroll('festivals');return false;">Food &amp; Festivals</a>
+          <a href="#destinations" onclick="showDestinations();return false;">Destinations search</a>
         </div>
         <div>
-          <h4>SBharatpport</h4>
-          <a href="#contact" onclick="goHomeAndScroll('contact');retBharatrn false;">Contact Bharats</a>
-          <!-- <a href="#" onclick="retBharatrn false;">Travel advisories</a>
-        <a href="#" onclick="retBharatrn false;">FAQs</a> -->
+          <h4>Support</h4>
+          <a href="#contact" onclick="goHomeAndScroll('contact');return false;">Contact us</a>
+          <!-- <a href="#" onclick="return false;">Travel advisories</a>
+        <a href="#" onclick="return false;">FAQs</a> -->
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2026 Travel Bharat. All rights reserved.</span>
+        <span>© 2026 Travel u. All rights reserved.</span>
         <span>Made with ♥ for every road across India.</span>
       </div>
     </div>
