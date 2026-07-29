@@ -66,7 +66,7 @@ p{ margin:0; }
 .dropdown button[disabled]{ color:#9aa3a8; cursor:not-allowed; }
 .dropdown button[disabled]:hover{ background:none; }
 .tag-soon{ font-family:var(--font-mono); font-size:9px; background:var(--sandstone); padding:2px 6px; border-radius:20px; text-transform:uuppercase; }
-.a11y-panel{ padding:14px; }
+.a11y-panel{ padding:15px; }
 .a11y-panel h4{ font-family:var(--font-body); font-size:13px; font-weight:600; margin-bottom:10px; color:var(--indigo-dark); }
 .a11y-row{ display:flex; align-items:center; justify-content:space-between; padding:9px 0; border-top:1px solid var(--line); font-size:13.5px; }
 .a11y-row:first-of-type{ border-top:none; }
@@ -233,10 +233,11 @@ body.vi-mode a, body.vi-mode button{ text-underline-offset:3px; }
 	.logo small{ font-size:10px; overflow:visible; display:block; }
 	.logo .mark{ width:32px; height:32px; font-size:15px; overflow:hidden; flex-shrink:0; }
 	.header-actions{ gap:8px; }
-	.lang-btn, .a11y-btn, .menu-btn{ padding:8px 10px; }
+	.lang-btn, .a11y-btn, .menu-btn{ padding:5px 4px; }
+	.a11y-panel{ padding: 5px; }
 	.header-actions .label{ display:none; }
 	.menu-panel{ min-width:240px; width:auto; }
-	.menu-panel a{ font-size:13px; padding:12px 14px; white-space:normal; }
+	.menu-panel a{ font-size:13px; padding:10px 12px; white-space:normal; }
 	.menu-panel .menu-tag{ display:none; }
 	.section{ padding:56px 0; }
 	.hero-content{ padding:0 18px 52px; }
@@ -283,11 +284,16 @@ body.vi-mode a, body.vi-mode button{ text-underline-offset:3px; }
 
 @media (max-width: 440px){
 	.menu-panel{ right:-8px; left:9; min-width:calc(100% - 32px); width:auto; }
-	.menu-panel a{ font-size:13px; padding:16px 16px; white-space:normal; }
-	.menu-btn{ padding: 4px; border-radius: 55%; }
+	.menu-panel a{ font-size:13px; padding:10px 10px; white-space:normal; }
+	/* .menu-btn{ padding: 4px; border-radius: 55%; } */
 	.header-actions{ width:100%; justify-content:flex-end; }
 	.logo{ font-size:12px; gap:6px; flex-shrink:0; white-space:nowrap; }
 	.logo small{ font-size:7px; overflow:visible; }
+     .menu-btn,.lang-btn,.a11y-btn{ border-radius:99px; padding:2px; font-size:10px; font-weight:600;}
+.lang-btn{padding:5px 8px; }
+.lbl-1{display : none; }
+.menu-btn{padding:2px;}
+.a11y-btn{padding: 5px;}
 	.logo .mark{ width:28px; height:28px; font-size:10px; flex-shrink:0; }
 	.hero h1{ font-size:clamp(20px,10vw,32px); word-break:break-word; }
 	.hero p.lede{ margin-bottom:18px; font-size:12px; word-wrap:break-word; }
