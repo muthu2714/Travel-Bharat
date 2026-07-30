@@ -45,7 +45,7 @@ p{ margin:0; }
 .section{ padding:88px 0; }
 .section--alt{ background:var(--sandstone); }
 .section-head{ max-width:640px; margin:0 auto 48px; text-align:center; }
-.eyebrow{ font-family:var(--font-mono); font-size:12px; letter-spacing:.18em; text-transform:uuppercase; color:var(--madder); display:inline-block; margin-bottom:10px; font-weight:600; }
+.eyebrow{ font-family:var(--font-mono); font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--madder) display:inline-block; margin-bottom:10px; font-weight:600; }
 .section-head h2{ font-size:clamp(28px,4vw,42px); line-height:1.15; }
 .section-head p{ margin-top:14px; color:#3f4b52; font-size:16px; }
 
