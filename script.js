@@ -6,110 +6,110 @@ const statesData = [
     id: "rajasthan", name: "Rajasthan", code: "RAJ", seed: "rajasthan-fort",
     description: "The Land of Kings — golden deserts, hilltop forts and mirrored havelis.",
     districts: [
-      { name: "Jaipur", seed: "jaipur1", info: "The Pink City, home to Hawa Mahal and the Amber Fort's mirrored halls.", gallery: ["jaipur-g1","jaipur-g2","jaipur-g3"] },
-      { name: "udaipur", seed: "udaipur1", info: "The City of Lakes, famed for the Lake Palace floating on Pichola.", gallery: ["udaipur-g1","udaipur-g2","udaipur-g3"] },
-      { name: "Jodhpur", seed: "jodhpur1", info: "The Blue City beneath Mehrangarh Fort's sandstone ramparts.", gallery: ["jodhpur-g1","jodhpur-g2","jodhpur-g3"] },
-      { name: "Jaisalmer", seed: "jaisalmer1", info: "A living sandcastle on the Thar Desert's edge, known for camel safaris.", gallery: ["jaisalmer-g1","jaisalmer-g2","jaisalmer-g3"] },
-      { name: "Bikaner", seed: "bikaner1", info: "A desert stronghold famous for Junagarh Fort and crisp bhujia snacks.", gallery: ["bikaner-g1","bikaner-g2","bikaner-g3"] }
+      { name: "Jaipur", seed: "jaipur1", info: "The Pink City, home to Hawa Mahal and the Amber Fort's mirrored halls.", gallery: ["jaipur-g1", "jaipur-g2", "jaipur-g3"] },
+      { name: "udaipur", seed: "udaipur1", info: "The City of Lakes, famed for the Lake Palace floating on Pichola.", gallery: ["udaipur-g1", "udaipur-g2", "udaipur-g3"] },
+      { name: "Jodhpur", seed: "jodhpur1", info: "The Blue City beneath Mehrangarh Fort's sandstone ramparts.", gallery: ["jodhpur-g1", "jodhpur-g2", "jodhpur-g3"] },
+      { name: "Jaisalmer", seed: "jaisalmer1", info: "A living sandcastle on the Thar Desert's edge, known for camel safaris.", gallery: ["jaisalmer-g1", "jaisalmer-g2", "jaisalmer-g3"] },
+      { name: "Bikaner", seed: "bikaner1", info: "A desert stronghold famous for Junagarh Fort and crisp bhujia snacks.", gallery: ["bikaner-g1", "bikaner-g2", "bikaner-g3"] }
     ]
   },
   {
     id: "kerala", name: "Kerala", code: "KER", seed: "kerala-backwater",
     description: "God's Own Country — palm-fringed backwaters, misty tea hills and Ayurveda.",
     districts: [
-      { name: "Ernakulam", seed: "kochi1", info: "Home to Kochi's colonial waterfront and Chinese fishing nets.", gallery: ["kochi-g1","kochi-g2","kochi-g3"] },
-      { name: "Alappuzha", seed: "alleppey1", info: "The Venice of the East, famous for houseboat cruises on the backwaters.", gallery: ["alleppey-g1","alleppey-g2","alleppey-g3"] },
-      { name: "Wayanad", seed: "wayanad1", info: "Misty Western Ghats hills with spice plantations and wildlife.", gallery: ["wayanad-g1","wayanad-g2","wayanad-g3"] },
-      { name: "Thiruvananthapuram", seed: "trivandrum1", info: "Kerala's capital, home to the gold-crowned Padmanabhaswamy Temple.", gallery: ["trivandrum-g1","trivandrum-g2","trivandrum-g3"] },
-      { name: "Kozhikode", seed: "kozhikode1", info: "A historic spice-trade port with sweeping Arabian Sea beaches.", gallery: ["kozhikode-g1","kozhikode-g2","kozhikode-g3"] }
+      { name: "Ernakulam", seed: "kochi1", info: "Home to Kochi's colonial waterfront and Chinese fishing nets.", gallery: ["kochi-g1", "kochi-g2", "kochi-g3"] },
+      { name: "Alappuzha", seed: "alleppey1", info: "The Venice of the East, famous for houseboat cruises on the backwaters.", gallery: ["alleppey-g1", "alleppey-g2", "alleppey-g3"] },
+      { name: "Wayanad", seed: "wayanad1", info: "Misty Western Ghats hills with spice plantations and wildlife.", gallery: ["wayanad-g1", "wayanad-g2", "wayanad-g3"] },
+      { name: "Thiruvananthapuram", seed: "trivandrum1", info: "Kerala's capital, home to the gold-crowned Padmanabhaswamy Temple.", gallery: ["trivandrum-g1", "trivandrum-g2", "trivandrum-g3"] },
+      { name: "Kozhikode", seed: "kozhikode1", info: "A historic spice-trade port with sweeping Arabian Sea beaches.", gallery: ["kozhikode-g1", "kozhikode-g2", "kozhikode-g3"] }
     ]
   },
   {
     id: "goa", name: "Goa", code: "GOA", seed: "goa-beach",
     description: "India's smallest state — sun-bleached beaches, Portuguese churches and beach shacks.",
     districts: [
-      { name: "Panaji", seed: "panaji1", info: "Goa's riverside capital, lined with pastel Portuguese-era houses.", gallery: ["panaji-g1","panaji-g2","panaji-g3"] },
-      { name: "Calangute", seed: "calangute1", info: "Goa's busiest beach strip, packed with shacks and water sports.", gallery: ["calangute-g1","calangute-g2","calangute-g3"] },
-      { name: "Margao", seed: "margao1", info: "A market town with grand colonial mansions and spice trade history.", gallery: ["margao-g1","margao-g2","margao-g3"] },
-      { name: "Vasco da Gama", seed: "vasco1", info: "A port town gateway with quieter beaches nearby like Bogmalo.", gallery: ["vasco-g1","vasco-g2","vasco-g3"] },
-      { name: "Anjuna", seed: "anjuna1", info: "Known for its flea market, cliffside cafes and trance-era nightlife.", gallery: ["anjuna-g1","anjuna-g2","anjuna-g3"] }
+      { name: "Panaji", seed: "panaji1", info: "Goa's riverside capital, lined with pastel Portuguese-era houses.", gallery: ["panaji-g1", "panaji-g2", "panaji-g3"] },
+      { name: "Calangute", seed: "calangute1", info: "Goa's busiest beach strip, packed with shacks and water sports.", gallery: ["calangute-g1", "calangute-g2", "calangute-g3"] },
+      { name: "Margao", seed: "margao1", info: "A market town with grand colonial mansions and spice trade history.", gallery: ["margao-g1", "margao-g2", "margao-g3"] },
+      { name: "Vasco da Gama", seed: "vasco1", info: "A port town gateway with quieter beaches nearby like Bogmalo.", gallery: ["vasco-g1", "vasco-g2", "vasco-g3"] },
+      { name: "Anjuna", seed: "anjuna1", info: "Known for its flea market, cliffside cafes and trance-era nightlife.", gallery: ["anjuna-g1", "anjuna-g2", "anjuna-g3"] }
     ]
   },
   {
     id: "up", name: "uttar Pradesh", code: "uP", seed: "up-tajmahal",
     description: "The heartland — home to the Taj Mahal, the Ganga's ghats and Mughal grandeur.",
     districts: [
-      { name: "Agra", seed: "agra1", info: "Home to the Taj Mahal and the red sandstone Agra Fort.", gallery: ["agra-g1","agra-g2","agra-g3"] },
-      { name: "Varanasi", seed: "varanasi1", info: "One of the world's oldest living cities, alive with dawn Ganga aartis.", gallery: ["varanasi-g1","varanasi-g2","varanasi-g3"] },
-      { name: "Lucknow", seed: "lucknow1", info: "The City of Nawabs, celebrated for Awadhi cuisine and grand imambaras.", gallery: ["lucknow-g1","lucknow-g2","lucknow-g3"] },
-      { name: "Mathura", seed: "mathura1", info: "The birthplace of Krishna, famous for its temples and Holi celebrations.", gallery: ["mathura-g1","mathura-g2","mathura-g3"] },
-      { name: "Prayagraj", seed: "prayagraj1", info: "The sacred confluence of three rivers and host to the Kumbh Mela.", gallery: ["prayagraj-g1","prayagraj-g2","prayagraj-g3"] }
+      { name: "Agra", seed: "agra1", info: "Home to the Taj Mahal and the red sandstone Agra Fort.", gallery: ["agra-g1", "agra-g2", "agra-g3"] },
+      { name: "Varanasi", seed: "varanasi1", info: "One of the world's oldest living cities, alive with dawn Ganga aartis.", gallery: ["varanasi-g1", "varanasi-g2", "varanasi-g3"] },
+      { name: "Lucknow", seed: "lucknow1", info: "The City of Nawabs, celebrated for Awadhi cuisine and grand imambaras.", gallery: ["lucknow-g1", "lucknow-g2", "lucknow-g3"] },
+      { name: "Mathura", seed: "mathura1", info: "The birthplace of Krishna, famous for its temples and Holi celebrations.", gallery: ["mathura-g1", "mathura-g2", "mathura-g3"] },
+      { name: "Prayagraj", seed: "prayagraj1", info: "The sacred confluence of three rivers and host to the Kumbh Mela.", gallery: ["prayagraj-g1", "prayagraj-g2", "prayagraj-g3"] }
     ]
   },
   {
     id: "tamilnadu", name: "Tamil Nadu", code: "TN", seed: "tn-temple",
     description: "A land of towering Dravidian temples, classical arts and coastal towns.",
     districts: [
-      { name: "Chennai", seed: "chennai1", info: "A coastal capital blending Marina Beach with temple architecture.", gallery: ["chennai-g1","chennai-g2","chennai-g3"] },
-      { name: "Madurai", seed: "madurai1", info: "Home to the soaring, sculpted towers of Meenakshi Amman Temple.", gallery: ["madurai-g1","madurai-g2","madurai-g3"] },
-      { name: "Coimbatore", seed: "coimbatore1", info: "A gateway to the Western Ghats and the Nilgiri hill country.", gallery: ["coimbatore-g1","coimbatore-g2","coimbatore-g3"] },
-      { name: "Thanjavur", seed: "thanjavur1", info: "Seat of the Chola dynasty's Brihadeeswarar Temple, a uNESCO site.", gallery: ["thanjavur-g1","thanjavur-g2","thanjavur-g3"] },
-      { name: "Kanyakumari", seed: "kanyakumari1", info: "India's southern tip, where three seas meet at sunrise and sunset.", gallery: ["kanyakumari-g1","kanyakumari-g2","kanyakumari-g3"] }
+      { name: "Chennai", seed: "chennai1", info: "A coastal capital blending Marina Beach with temple architecture.", gallery: ["chennai-g1", "chennai-g2", "chennai-g3"] },
+      { name: "Madurai", seed: "madurai1", info: "Home to the soaring, sculpted towers of Meenakshi Amman Temple.", gallery: ["madurai-g1", "madurai-g2", "madurai-g3"] },
+      { name: "Coimbatore", seed: "coimbatore1", info: "A gateway to the Western Ghats and the Nilgiri hill country.", gallery: ["coimbatore-g1", "coimbatore-g2", "coimbatore-g3"] },
+      { name: "Thanjavur", seed: "thanjavur1", info: "Seat of the Chola dynasty's Brihadeeswarar Temple, a uNESCO site.", gallery: ["thanjavur-g1", "thanjavur-g2", "thanjavur-g3"] },
+      { name: "Kanyakumari", seed: "kanyakumari1", info: "India's southern tip, where three seas meet at sunrise and sunset.", gallery: ["kanyakumari-g1", "kanyakumari-g2", "kanyakumari-g3"] }
     ]
   },
   {
     id: "himachal", name: "Himachal Pradesh", code: "HP", seed: "hp-mountain",
     description: "Snow-capped Himalayan valleys, apple orchards and quiet monastery towns.",
     districts: [
-      { name: "Shimla", seed: "shimla1", info: "A colonial hill capital with pine ridges and a toy-train railway.", gallery: ["shimla-g1","shimla-g2","shimla-g3"] },
-      { name: "Kullu (Manali)", seed: "manali1", info: "Gateway to Solang Valley's snow slopes and adventure sports.", gallery: ["manali-g1","manali-g2","manali-g3"] },
-      { name: "Kangra (Dharamshala)", seed: "dharamshala1", info: "Home to the Dalai Lama's residence and Himalayan monasteries.", gallery: ["dharamshala-g1","dharamshala-g2","dharamshala-g3"] },
-      { name: "Lahaul-Spiti", seed: "spiti1", info: "A stark high-altitude desert dotted with centuries-old monasteries.", gallery: ["spiti-g1","spiti-g2","spiti-g3"] },
-      { name: "Chamba (Dalhousie)", seed: "dalhousie1", info: "Colonial-era hill retreat wrapped in cedar and pine forest.", gallery: ["dalhousie-g1","dalhousie-g2","dalhousie-g3"] }
+      { name: "Shimla", seed: "shimla1", info: "A colonial hill capital with pine ridges and a toy-train railway.", gallery: ["shimla-g1", "shimla-g2", "shimla-g3"] },
+      { name: "Kullu (Manali)", seed: "manali1", info: "Gateway to Solang Valley's snow slopes and adventure sports.", gallery: ["manali-g1", "manali-g2", "manali-g3"] },
+      { name: "Kangra (Dharamshala)", seed: "dharamshala1", info: "Home to the Dalai Lama's residence and Himalayan monasteries.", gallery: ["dharamshala-g1", "dharamshala-g2", "dharamshala-g3"] },
+      { name: "Lahaul-Spiti", seed: "spiti1", info: "A stark high-altitude desert dotted with centuries-old monasteries.", gallery: ["spiti-g1", "spiti-g2", "spiti-g3"] },
+      { name: "Chamba (Dalhousie)", seed: "dalhousie1", info: "Colonial-era hill retreat wrapped in cedar and pine forest.", gallery: ["dalhousie-g1", "dalhousie-g2", "dalhousie-g3"] }
     ]
   },
   {
     id: "maharashtra", name: "Maharashtra", code: "MH", seed: "mh-gateway",
     description: "From Mumbai's Art Deco skyline to Deccan hill forts and cave temples.",
     districts: [
-      { name: "Mumbai", seed: "mumbai1", info: "India's financial capital, home to the Gateway of India and Marine Drive.", gallery: ["mumbai-g1","mumbai-g2","mumbai-g3"] },
-      { name: "Pune", seed: "pune1", info: "A cultural and educational hub ringed by Sahyadri hill forts.", gallery: ["pune-g1","pune-g2","pune-g3"] },
-      { name: "Nashik", seed: "nashik1", info: "A wine-country city on the Godavari, sacred for the Kumbh Mela.", gallery: ["nashik-g1","nashik-g2","nashik-g3"] },
-      { name: "Aurangabad", seed: "aurangabad1", info: "Gateway to the rock-cut cave temples of Ajanta and Ellora.", gallery: ["aurangabad-g1","aurangabad-g2","aurangabad-g3"] },
-      { name: "Nagpur", seed: "nagpur1", info: "The Orange City, a green, lake-dotted crossroads of central India.", gallery: ["nagpur-g1","nagpur-g2","nagpur-g3"] }
+      { name: "Mumbai", seed: "mumbai1", info: "India's financial capital, home to the Gateway of India and Marine Drive.", gallery: ["mumbai-g1", "mumbai-g2", "mumbai-g3"] },
+      { name: "Pune", seed: "pune1", info: "A cultural and educational hub ringed by Sahyadri hill forts.", gallery: ["pune-g1", "pune-g2", "pune-g3"] },
+      { name: "Nashik", seed: "nashik1", info: "A wine-country city on the Godavari, sacred for the Kumbh Mela.", gallery: ["nashik-g1", "nashik-g2", "nashik-g3"] },
+      { name: "Aurangabad", seed: "aurangabad1", info: "Gateway to the rock-cut cave temples of Ajanta and Ellora.", gallery: ["aurangabad-g1", "aurangabad-g2", "aurangabad-g3"] },
+      { name: "Nagpur", seed: "nagpur1", info: "The Orange City, a green, lake-dotted crossroads of central India.", gallery: ["nagpur-g1", "nagpur-g2", "nagpur-g3"] }
     ]
   },
   {
     id: "wb", name: "West Bengal", code: "WB", seed: "wb-kolkata",
     description: "Colonial Kolkata, Darjeeling's tea slopes and the mangroves of the Sundarbans.",
     districts: [
-      { name: "Kolkata", seed: "kolkata1", info: "A city of colonial architecture, trams, and the Victoria Memorial.", gallery: ["kolkata-g1","kolkata-g2","kolkata-g3"] },
-      { name: "Darjeeling", seed: "darjeeling1", info: "Terraced tea gardens and views of the Kanchenjunga range.", gallery: ["darjeeling-g1","darjeeling-g2","darjeeling-g3"] },
-      { name: "Siliguri", seed: "siliguri1", info: "A gateway city linking the plains to the eastern Himalayan hills.", gallery: ["siliguri-g1","siliguri-g2","siliguri-g3"] },
-      { name: "Murshidabad", seed: "murshidabad1", info: "The former Bengal capital, dotted with nawabi palaces.", gallery: ["murshidabad-g1","murshidabad-g2","murshidabad-g3"] },
-      { name: "Purba Medinipur (Digha)", seed: "digha1", info: "A popular sandy-beach getaway on the Bay of Bengal.", gallery: ["digha-g1","digha-g2","digha-g3"] }
+      { name: "Kolkata", seed: "kolkata1", info: "A city of colonial architecture, trams, and the Victoria Memorial.", gallery: ["kolkata-g1", "kolkata-g2", "kolkata-g3"] },
+      { name: "Darjeeling", seed: "darjeeling1", info: "Terraced tea gardens and views of the Kanchenjunga range.", gallery: ["darjeeling-g1", "darjeeling-g2", "darjeeling-g3"] },
+      { name: "Siliguri", seed: "siliguri1", info: "A gateway city linking the plains to the eastern Himalayan hills.", gallery: ["siliguri-g1", "siliguri-g2", "siliguri-g3"] },
+      { name: "Murshidabad", seed: "murshidabad1", info: "The former Bengal capital, dotted with nawabi palaces.", gallery: ["murshidabad-g1", "murshidabad-g2", "murshidabad-g3"] },
+      { name: "Purba Medinipur (Digha)", seed: "digha1", info: "A popular sandy-beach getaway on the Bay of Bengal.", gallery: ["digha-g1", "digha-g2", "digha-g3"] }
     ]
   },
   {
     id: "karnataka", name: "Karnataka", code: "KA", seed: "ka-hampi",
     description: "Ruined empires, coffee-scented hills and India's tech capital, Bengaluru.",
     districts: [
-      { name: "Bengaluru", seed: "bengaluru1", info: "India's Garden City and technology hub, with leafy boulevards.", gallery: ["bengaluru-g1","bengaluru-g2","bengaluru-g3"] },
-      { name: "Mysuru", seed: "mysuru1", info: "Home to the illuminated Mysuru Palace and royal Dasara festival.", gallery: ["mysuru-g1","mysuru-g2","mysuru-g3"] },
-      { name: "Ballari (Hampi)", seed: "hampi1", info: "A uNESCO boulder-strewn landscape of Vijayanagara empire ruins.", gallery: ["hampi-g1","hampi-g2","hampi-g3"] },
-      { name: "Kodagu (Coorg)", seed: "coorg1", info: "Misty coffee estates in the Western Ghats, called Scotland of India.", gallery: ["coorg-g1","coorg-g2","coorg-g3"] },
-      { name: "Mangaluru", seed: "mangaluru1", info: "A coastal city famed for seafood and Arabian Sea sunsets.", gallery: ["mangaluru-g1","mangaluru-g2","mangaluru-g3"] }
+      { name: "Bengaluru", seed: "bengaluru1", info: "India's Garden City and technology hub, with leafy boulevards.", gallery: ["bengaluru-g1", "bengaluru-g2", "bengaluru-g3"] },
+      { name: "Mysuru", seed: "mysuru1", info: "Home to the illuminated Mysuru Palace and royal Dasara festival.", gallery: ["mysuru-g1", "mysuru-g2", "mysuru-g3"] },
+      { name: "Ballari (Hampi)", seed: "hampi1", info: "A uNESCO boulder-strewn landscape of Vijayanagara empire ruins.", gallery: ["hampi-g1", "hampi-g2", "hampi-g3"] },
+      { name: "Kodagu (Coorg)", seed: "coorg1", info: "Misty coffee estates in the Western Ghats, called Scotland of India.", gallery: ["coorg-g1", "coorg-g2", "coorg-g3"] },
+      { name: "Mangaluru", seed: "mangaluru1", info: "A coastal city famed for seafood and Arabian Sea sunsets.", gallery: ["mangaluru-g1", "mangaluru-g2", "mangaluru-g3"] }
     ]
   },
   {
     id: "punjab", name: "Punjab", code: "PB", seed: "punjab-goldentemple",
     description: "Golden wheat fields, the Golden Temple and India's warmest hospitality.",
     districts: [
-      { name: "Amritsar", seed: "amritsar1", info: "Home to the shimmering Golden Temple and the Wagah border ceremony.", gallery: ["amritsar-g1","amritsar-g2","amritsar-g3"] },
-      { name: "Chandigarh", seed: "chandigarh1", info: "A planned modernist city with the Rock Garden and Sukhna Lake.", gallery: ["chandigarh-g1","chandigarh-g2","chandigarh-g3"] },
-      { name: "Ludhiana", seed: "ludhiana1", info: "Punjab's industrial heart, known for hearty Punjabi cuisine.", gallery: ["ludhiana-g1","ludhiana-g2","ludhiana-g3"] },
-      { name: "Patiala", seed: "patiala1", info: "A royal city famous for its fort-palace and traditional Patiala salwar.", gallery: ["patiala-g1","patiala-g2","patiala-g3"] },
-      { name: "Jalandhar", seed: "jalandhar1", info: "An ancient trade town with sports-goods bazaars and old temples.", gallery: ["jalandhar-g1","jalandhar-g2","jalandhar-g3"] }
+      { name: "Amritsar", seed: "amritsar1", info: "Home to the shimmering Golden Temple and the Wagah border ceremony.", gallery: ["amritsar-g1", "amritsar-g2", "amritsar-g3"] },
+      { name: "Chandigarh", seed: "chandigarh1", info: "A planned modernist city with the Rock Garden and Sukhna Lake.", gallery: ["chandigarh-g1", "chandigarh-g2", "chandigarh-g3"] },
+      { name: "Ludhiana", seed: "ludhiana1", info: "Punjab's industrial heart, known for hearty Punjabi cuisine.", gallery: ["ludhiana-g1", "ludhiana-g2", "ludhiana-g3"] },
+      { name: "Patiala", seed: "patiala1", info: "A royal city famous for its fort-palace and traditional Patiala salwar.", gallery: ["patiala-g1", "patiala-g2", "patiala-g3"] },
+      { name: "Jalandhar", seed: "jalandhar1", info: "An ancient trade town with sports-goods bazaars and old temples.", gallery: ["jalandhar-g1", "jalandhar-g2", "jalandhar-g3"] }
     ]
   }
 ];
@@ -151,15 +151,15 @@ const festivalsData = [
 /* ---------------------------------------------------------
    2. HEADER INTERACTIONS
 --------------------------------------------------------- */
-function toggleDropdown(id, btn){
+function toggleDropdown(id, btn) {
   const el = document.getElementById(id);
   const isOpen = el.classList.contains('open');
   // close all dropdowns first
   document.querySelectorAll('.dropdown, .menu-panel').forEach(d => d.classList.remove('open'));
-  document.querySelectorAll('.header-actions [aria-expanded]').forEach(b => b.setAttribute('aria-expanded','false'));
-  if(!isOpen){
+  document.querySelectorAll('.header-actions [aria-expanded]').forEach(b => b.setAttribute('aria-expanded', 'false'));
+  if (!isOpen) {
     el.classList.add('open');
-    btn.setAttribute('aria-expanded','true');
+    btn.setAttribute('aria-expanded', 'true');
   }
 }
 
@@ -196,10 +196,10 @@ const uiTranslations = {
   }
 };
 
-function applyTranslations(language){
+function applyTranslations(language) {
   const text = uiTranslations[language] || uiTranslations.English;
-  const setText = (selector, value) => { const element = document.querySelector(selector); if(element) element.textContent = value; };
-  const setHtml = (selector, value) => { const element = document.querySelector(selector); if(element) element.innerHTML = value; };
+  const setText = (selector, value) => { const element = document.querySelector(selector); if (element) element.textContent = value; };
+  const setHtml = (selector, value) => { const element = document.querySelector(selector); if (element) element.innerHTML = value; };
   setText('.hero-eyebrow', text.heroEyebrow); setHtml('.hero h1', text.heroTitle); setText('.hero p.lede', text.heroText);
   setText('.hero-actions .btn-primary', text.explore); setText('.hero-actions .btn-ghost', text.search);
   setText('#states .section-head .eyebrow', text.statesEyebrow); setText('#states h2', text.statesTitle); setText('#states .section-head p', text.statesText);
@@ -209,13 +209,13 @@ function applyTranslations(language){
   setText('label[for="cName"]', text.fullName); setText('label[for="cEmail"]', text.email); setText('label[for="cMsg"]', text.message); setText('#contactForm button[type="submit"]', text.send);
   const destinationLink = document.querySelector('.menu-panel a:first-child');
   const festivalLink = document.querySelector('.menu-panel a:nth-child(2)');
-  if(destinationLink) destinationLink.firstChild.textContent = `🧭 ${text.destinations} `;
-  if(festivalLink) festivalLink.firstChild.textContent = `🎉 ${text.foodFestivals} `;
+  if (destinationLink) destinationLink.firstChild.textContent = `🧭 ${text.destinations} `;
+  if (festivalLink) festivalLink.firstChild.textContent = `🎉 ${text.foodFestivals} `;
   setText('.footer-intro', text.footerIntro);
   document.documentElement.lang = language === 'हिन्दी' ? 'hi' : language === 'தமிழ்' ? 'ta' : 'en';
 }
 
-function selectLanguage(language){
+function selectLanguage(language) {
   document.querySelector('#langBtn .lbl').textContent = language;
   applyTranslations(language);
   document.getElementById('langMenu').classList.remove('open');
@@ -223,13 +223,13 @@ function selectLanguage(language){
 }
 
 document.addEventListener('click', (e) => {
-  if(!e.target.closest('.lang-switch') && !e.target.closest('.menu-wrap')){
+  if (!e.target.closest('.lang-switch') && !e.target.closest('.menu-wrap')) {
     document.querySelectorAll('.dropdown, .menu-panel').forEach(d => d.classList.remove('open'));
-    document.querySelectorAll('.header-actions [aria-expanded]').forEach(b => b.setAttribute('aria-expanded','false'));
+    document.querySelectorAll('.header-actions [aria-expanded]').forEach(b => b.setAttribute('aria-expanded', 'false'));
   }
 });
 
-function toggleA11y(cls, btn){
+function toggleA11y(cls, btn) {
   const active = document.body.classList.toggle(cls);
   btn.setAttribute('aria-pressed', active ? 'true' : 'false');
 }
@@ -241,25 +241,25 @@ window.addEventListener('scroll', () => {
 /* ---------------------------------------------------------
    3. VIEW ROuTER
 --------------------------------------------------------- */
-function showView(id){
+function showView(id) {
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   window.scrollTo({ top: 0, behavior: 'auto' });
 }
-function goHome(){ showView('view-home'); }
-function goHomeAndScroll(sectionId){ showView('view-home'); setTimeout(() => scrollToId(sectionId), 50); }
-function scrollToId(id){
+function goHome() { showView('view-home'); }
+function goHomeAndScroll(sectionId) { showView('view-home'); setTimeout(() => scrollToId(sectionId), 50); }
+function scrollToId(id) {
   const el = document.getElementById(id);
-  if(el) el.scrollIntoView({ behavior:'smooth' });
+  if (el) el.scrollIntoView({ behavior: 'smooth' });
 }
-function showDestinations(){
+function showDestinations() {
   showView('view-destinations');
   document.getElementById('destSearchInput').focus();
   renderSearchResults();
 }
-function showStateDetail(stateId, districtIndex){
+function showStateDetail(stateId, districtIndex) {
   const state = statesData.find(s => s.id === stateId);
-  if(!state) return;
+  if (!state) return;
   document.getElementById('stateCrumb').textContent = state.name;
   document.getElementById('stateTitle').textContent = state.name;
   document.getElementById('stateDesc').textContent = state.description;
@@ -273,7 +273,7 @@ function showStateDetail(stateId, districtIndex){
 --------------------------------------------------------- */
 
 /* -- States grid (home) -- */
-function renderStatesGrid(){
+function renderStatesGrid() {
   const grid = document.getElementById('statesGrid');
   grid.innerHTML = statesData.slice(0, 8).map(s => `
     <button class="card state-card" onclick="showStateDetail('${s.id}')" aria-label="View ${s.name}">
@@ -290,13 +290,13 @@ function renderStatesGrid(){
 }
 
 /* -- Tourist places grid (home) -- */
-function renderPlacesGrid(){
+function renderPlacesGrid() {
   const grid = document.getElementById('placesGrid');
   grid.innerHTML = placesData.map(p => `
     <article class="card place-card">
       <div class="thumb">
         <img src="${img(p.seed, 500, 360)}" alt="${p.name}" loading="lazy">
-        <div class="stamp"><span class="code">${p.state.slice(0,3).toupperCase()}</span><span class="sub">${p.state}</span></div>
+        <div class="stamp"><span class="code">${p.state.slice(0, 3).toupperCase()}</span><span class="sub">${p.state}</span></div>
       </div>
       <div class="body">
         <h3>${p.name}</h3>
@@ -308,7 +308,7 @@ function renderPlacesGrid(){
   `).join('');
 }
 
-function renderFestivals(){
+function renderFestivals() {
   const track = document.getElementById('festivalTrack');
   track.innerHTML = festivalsData.map(f => `
     <article class="festival-card">
@@ -324,7 +324,7 @@ function renderFestivals(){
   `).join('');
 }
 
-function renderDistrictButtons(state){
+function renderDistrictButtons(state) {
   const container = document.getElementById('districtButtons');
   container.innerHTML = state.districts.map((district, index) => `
     <button type="button" onclick="renderDistrictInfo(statesData.find(s => s.id === '${state.id}'), ${index})">
@@ -333,7 +333,7 @@ function renderDistrictButtons(state){
   `).join('');
 }
 
-function renderDistrictInfo(state, districtIndex){
+function renderDistrictInfo(state, districtIndex) {
   const district = state.districts[districtIndex] || state.districts[0];
   const container = document.getElementById('districtInfo');
   document.querySelectorAll('#districtButtons button').forEach((button, index) => {
@@ -353,11 +353,11 @@ function renderDistrictInfo(state, districtIndex){
   `;
 }
 
-function renderSearchResults(){
+function renderSearchResults() {
   const query = document.getElementById('destSearchInput').value.trim().toLowerCase();
   const results = document.getElementById('searchResults');
   const matches = statesData.filter(state => state.name.toLowerCase().includes(query));
-  if(!matches.length){
+  if (!matches.length) {
     results.innerHTML = '<p class="no-results">No states found. Try another search.</p>';
     return;
   }
@@ -382,7 +382,7 @@ const heroSlides = [
 ];
 let activeHeroSlide = 0;
 
-function renderHero(){
+function renderHero() {
   document.getElementById('heroSlides').innerHTML = heroSlides.map((slide, index) => `
     <div class="hero-slide${index === 0 ? ' active' : ''}" style="background-image:url('${img(slide.seed, 1600, 900)}')" aria-label="${slide.title}"></div>
   `).join('');
@@ -391,13 +391,13 @@ function renderHero(){
   `).join('');
 }
 
-function setHeroSlide(index){
+function setHeroSlide(index) {
   activeHeroSlide = index;
   document.querySelectorAll('.hero-slide').forEach((slide, slideIndex) => slide.classList.toggle('active', slideIndex === index));
   document.querySelectorAll('.hero-dots button').forEach((dot, dotIndex) => dot.classList.toggle('active', dotIndex === index));
 }
 
-function scrollCarousel(direction){
+function scrollCarousel(direction) {
   const track = document.getElementById('festivalTrack');
   track.scrollBy({ left: direction * 302, behavior: 'smooth' });
 }
@@ -405,7 +405,7 @@ function scrollCarousel(direction){
 /* ---------------------------------------------------------
    6. CONTACT FORM AND STARTuP
 --------------------------------------------------------- */
-function handleContactSubmit(event){
+function handleContactSubmit(event) {
   event.preventDefault();
   const message = document.getElementById('formMsg');
   message.textContent = 'Thank you. We will reply within one business day.';
@@ -414,7 +414,7 @@ function handleContactSubmit(event){
   return false;
 }
 
-function initializeApp(){
+function initializeApp() {
   window.setInterval(() => setHeroSlide((activeHeroSlide + 1) % heroSlides.length), 6000);
 }
 
